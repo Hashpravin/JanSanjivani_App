@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graident"
+
+    tools:context=".SigninBloodBank">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+             >
+
+
+            <TableLayout
+                android:id="@+id/tableLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*"
+                android:layout_marginTop="120dp">
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="25dp"
+                        android:layout_span="6"
+                        android:gravity="center"
+                        android:text="Blood Data (in ml)"
+                        android:textSize="18dp"
+                        android:textStyle="bold"
+                        android:typeface="serif">
+
+                    </TextView>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="A+"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="B+">
+
+                    </TextView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+
+                        android:text="O+">
+
+                    </TextView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+
+                        android:text="AB+">
+
+                    </TextView>
+
+
+
+
+                </TableRow>
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+
+                        android:id="@+id/Ap"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/Bp"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/Op"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/ABp"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="13dp"
+                    android:layout_marginTop="40dp">
+
+                    <TextView
+                        android:layout_gravity="center"
+                        android:text="A-"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="B-">
+
+                    </TextView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+
+                        android:text="O-">
+
+                    </TextView>
+
+                    <TextView
+                        android:gravity="center_horizontal"
+
+                        android:text="AB-">
+
+                    </TextView>
+
+
+
+
+                </TableRow>
+                <TableRow
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+
+                        android:id="@+id/An"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/Bn"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/On"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+
+                    <EditText
+
+                        android:id="@+id/ABn"
+                        android:gravity="center_horizontal"
+                        android:text="200">
+
+                    </EditText>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/SaveBloodData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Save data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

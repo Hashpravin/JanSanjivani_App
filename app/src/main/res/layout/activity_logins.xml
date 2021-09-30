@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="50dp"
+    tools:context=".Logins"
+    android:orientation="vertical"
+    android:background="@drawable/graident">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-65dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="157dp"
+                android:layout_height="293dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/app_logo_1"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="-3dp" />
+
+            <TextView
+                android:id="@+id/BP"
+                android:layout_width="278dp"
+                android:layout_height="83dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="Please select your Domains"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.41000003" />
+
+            <Button
+                android:id="@+id/BloodBankLogin"
+                android:layout_width="249dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="50dp"
+                android:background="#A520EC"
+                android:text="Origanization logins"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BP"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <Button
+                android:id="@+id/SimpleUserLogin"
+                android:layout_width="143dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="180dp"
+                android:background="#CF32F3"
+                android:text="Applicants login"
+                android:textColor="@color/white"
+                android:translationY="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/BloodBankLogin"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <Button
+                android:id="@+id/AdminsLogin"
+                android:layout_width="80dp"
+                android:layout_height="61dp"
+                android:layout_marginBottom="76dp"
+                android:background="#CF32F3"
+                android:onClick="Admins"
+                android:text="Admin's"
+                android:textColor="@color/white"
+                android:translationY="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.059"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SimpleUserLogin"
+                app:layout_constraintVertical_bias="1.0" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

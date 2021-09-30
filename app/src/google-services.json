@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079383425863",
+    "project_id": "jansanjivaniapp",
+    "storage_bucket": "jansanjivaniapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079383425863:android:6356355711d3ed49770262",
+        "android_client_info": {
+          "package_name": "com.example.jansanjivani"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079383425863-bn9jj0s1njrev58dhrun0uv8scp32eqe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz0gX5NOKGzKVLkkm5V1mF96-EzO2OflE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079383425863-bn9jj0s1njrev58dhrun0uv8scp32eqe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

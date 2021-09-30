@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/graident"
+    android:scrollbarSize="50dp"
+    tools:context=".SigninBloodBank">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="112dp"
+                    android:fontFamily="@font/antic"
+                    android:foregroundGravity="center"
+                    android:gravity="center"
+                    android:text="@string/new_organization_ragister_here"
+                    android:textSize="40sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints,NotSibling"
+                    />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/NewBloodBankname"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="375dp"
+                    android:layout_height="80dp"
+                    android:hint="@string/name_of_organization"
+                    android:layout_marginTop="40dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/orgname"
+                        android:layout_width="375dp"
+                        android:layout_height="80dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/NewBloodBankusername"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="375dp"
+                    android:layout_height="80dp"
+                    android:hint="USER NAME">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/orgusername"
+                        android:layout_width="375dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/NewBloodBankpass"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="375dp"
+                    android:layout_height="80dp"
+                    android:hint="SET  PASSWORD">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/orgpass"
+                        android:layout_width="375dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/Newuserphonno"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="375dp"
+                    android:layout_height="80dp"
+                    android:hint="Phone no :">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phonno"
+                        android:layout_width="375dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/NewBloodBankaddress"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="375dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Address">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/orgadress"
+                        android:layout_width="375dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="30dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/CreatenewBB"
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dp"
+                    android:text="@string/creater_account" />
+
+                <Button
+                    android:id="@+id/AlreadyragisBB"
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/already_ragistered_n_signin" />
+
+            </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">JanSanjivani</string>
+    <string name="jan_sanjeevani">Jan Sanjeevani</string>
+    <string name="your_blood_solution">Your Blood Solution</string>
+    <string name="title_activity_logins">Logins</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="locate_blood_near_ypu">Locate Blood Near Ypu</string>
+    <string name="search_your_blood">Search Your Blood</string>
+    <string name="Blood_Bank_Login_or_Signup">Blood_Bank_Login_or_Signup</string>
+    <string name="Wanna_Donate_Blood" />
+    <string name="bdonate_blood">BDonate Blood</string>
+    <string name="hello_welcome_back">Hello, Welcome Back</string>
+    <string name="singup_to_continue">Singup to continue</string>
+    <string name="username">USERNAME</string>
+    <string name="Fullname">FullName</string>
+    <string name="phoneno">PhoneNO.</string>
+    <string name="blood_group">Blood_Group</string>
+    <string name="password">Password</string>
+    <string name="forgate_password">Forgate Password ?</string>
+    <string name="new_user_sign_up">New_User_Sign_Up</string>
+    <string name="donate_blood">DONATE BLOOD</string>
+    <string name="new_organization_ragister_here">NEW ORGANIZATION RAGISTER HERE</string>
+    <string name="already_ragistered_n_signin">Already ragistered ?? \n signin</string>
+    <string name="creater_account">Creater account</string>
+    <string name="name_of_organization">NAME OF ORGANIZATION</string>
+    <string name="usernam_e">Username</string>
+    <string name="go">GO</string>
+    <string name="for_hospitals_and_ngo_s_only">**For Hospitals and NGO\'s only**</string>
+    <string name="new_user_sign__up">New User ? sign up</string>
+</resources>
